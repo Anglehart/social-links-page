@@ -1,0 +1,65 @@
+body {
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif !important;
+}
+header{
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  margin-top: 65px;
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 28.7px;
+  margin-bottom: 0;
+}
+h2 {
+  font-weight: 400;
+  font-size: 18.5px;
+  text-align: center;
+  color: #777777;
+}
+.about {
+  color:#fff;
+  width: 100%;
+  max-width: 540px;
+  margin: auto;
+  margin-top: 70px;
+}
+.links {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  color: #fff;
+  margin-top: 43px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "fb-img vk-img inst-img" "fb-text vk-text inst-text";
+}
+.links div {
+  text-align: center;
+  align-self: baseline;
+  font-size: 18px;
+  margin: 5px;
+}
+footer {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  color: #4cbbc0;
+  font-size: 31px;
+}
+footer p{
+  color: #fff;
+  font-size: 18.3px;
+  margin-top: 31px;
+  margin-bottom: 6px;
+}
+footer img {
+  margin-right: 10px;
+}
